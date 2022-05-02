@@ -104,13 +104,9 @@
 		7FA466DF282059A500351D83 /* poke-wordle */ = {
 			isa = PBXGroup;
 			children = (
-				7FA466E0282059A500351D83 /* MainApp.swift */,
-				7FA4670F28205B5C00351D83 /* CTAStyle.swift */,
-				7FA4671128205B7500351D83 /* Constant.swift */,
-				7FA466E2282059A500351D83 /* GameHistory.swift */,
+				7FB5C3DF282071320041481B /* Interface */,
 				7FB5C3DC282060B10041481B /* Design */,
-				7FA466E9282059A600351D83 /* PersistenceController.swift */,
-				7FA466EB282059A600351D83 /* Storage.xcdatamodeld */,
+				7FB5C3E32820719C0041481B /* Data */,
 				7FA466E6282059A600351D83 /* Preview Content */,
 			);
 			path = "poke-wordle";
@@ -148,6 +144,50 @@
 				7FB5C3DD282060B90041481B /* Color.swift */,
 			);
 			path = Design;
+			sourceTree = "<group>";
+		};
+		7FB5C3DF282071320041481B /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7FA466E0282059A500351D83 /* MainApp.swift */,
+				7FA4671128205B7500351D83 /* Constant.swift */,
+				7FB5C3E0282071440041481B /* Components */,
+				7FB5C3E2282071710041481B /* Screens */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		7FB5C3E0282071440041481B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C3E12820715B0041481B /* ButtonStyle */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7FB5C3E12820715B0041481B /* ButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				7FA4670F28205B5C00351D83 /* CTAStyle.swift */,
+			);
+			path = ButtonStyle;
+			sourceTree = "<group>";
+		};
+		7FB5C3E2282071710041481B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7FA466E2282059A500351D83 /* GameHistory.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7FB5C3E32820719C0041481B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7FA466E9282059A600351D83 /* PersistenceController.swift */,
+				7FA466EB282059A600351D83 /* Storage.xcdatamodeld */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
