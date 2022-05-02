@@ -13,12 +13,17 @@
 		7FA466E8282059A600351D83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA466E7282059A600351D83 /* Preview Assets.xcassets */; };
 		7FA466EA282059A600351D83 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466E9282059A600351D83 /* PersistenceController.swift */; };
 		7FA466ED282059A600351D83 /* Storage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466EB282059A600351D83 /* Storage.xcdatamodeld */; };
-		7FA466F7282059A600351D83 /* poke_wordleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466F6282059A600351D83 /* poke_wordleTests.swift */; };
+		7FA466F7282059A600351D83 /* PokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466F6282059A600351D83 /* PokemonTests.swift */; };
 		7FA46701282059A600351D83 /* poke_wordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA46700282059A600351D83 /* poke_wordleUITests.swift */; };
 		7FA46703282059A600351D83 /* poke_wordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA46702282059A600351D83 /* poke_wordleUITestsLaunchTests.swift */; };
 		7FA4671028205B5C00351D83 /* CTAStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4670F28205B5C00351D83 /* CTAStyle.swift */; };
 		7FA4671228205B7500351D83 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4671128205B7500351D83 /* Constant.swift */; };
 		7FB5C3DE282060B90041481B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C3DD282060B90041481B /* Color.swift */; };
+		7FB5C3E5282072D80041481B /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C3E4282072D80041481B /* Pokemon.swift */; };
+		7FB5C3E82820739A0041481B /* PokemonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C3E72820739A0041481B /* PokemonType.swift */; };
+		7FB5C3EA282076FA0041481B /* SampleDataSource.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FB5C3E9282076FA0041481B /* SampleDataSource.json */; };
+		7FB5C3EC282078E30041481B /* MeasurementSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C3EB282078E30041481B /* MeasurementSystem.swift */; };
+		7FB5C3F028207B470041481B /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C3EF28207B470041481B /* JSONHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,13 +52,18 @@
 		7FA466E9282059A600351D83 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		7FA466EC282059A600351D83 /* poke_wordle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = poke_wordle.xcdatamodel; sourceTree = "<group>"; };
 		7FA466F2282059A600351D83 /* poke-wordleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poke-wordleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FA466F6282059A600351D83 /* poke_wordleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_wordleTests.swift; sourceTree = "<group>"; };
+		7FA466F6282059A600351D83 /* PokemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTests.swift; sourceTree = "<group>"; };
 		7FA466FC282059A600351D83 /* poke-wordleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poke-wordleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA46700282059A600351D83 /* poke_wordleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_wordleUITests.swift; sourceTree = "<group>"; };
 		7FA46702282059A600351D83 /* poke_wordleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_wordleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7FA4670F28205B5C00351D83 /* CTAStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAStyle.swift; sourceTree = "<group>"; };
 		7FA4671128205B7500351D83 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		7FB5C3DD282060B90041481B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7FB5C3E4282072D80041481B /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		7FB5C3E72820739A0041481B /* PokemonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonType.swift; sourceTree = "<group>"; };
+		7FB5C3E9282076FA0041481B /* SampleDataSource.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleDataSource.json; sourceTree = "<group>"; };
+		7FB5C3EB282078E30041481B /* MeasurementSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementSystem.swift; sourceTree = "<group>"; };
+		7FB5C3EF28207B470041481B /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +114,11 @@
 		7FA466DF282059A500351D83 /* poke-wordle */ = {
 			isa = PBXGroup;
 			children = (
+				7FB5C3F128207B4E0041481B /* Helpers */,
+				7FB5C3E6282072DF0041481B /* Models */,
 				7FB5C3DF282071320041481B /* Interface */,
 				7FB5C3DC282060B10041481B /* Design */,
-				7FB5C3E32820719C0041481B /* Data */,
+				7FB5C3E32820719C0041481B /* Storage */,
 				7FA466E6282059A600351D83 /* Preview Content */,
 			);
 			path = "poke-wordle";
@@ -123,7 +135,8 @@
 		7FA466F5282059A600351D83 /* poke-wordleTests */ = {
 			isa = PBXGroup;
 			children = (
-				7FA466F6282059A600351D83 /* poke_wordleTests.swift */,
+				7FA466F6282059A600351D83 /* PokemonTests.swift */,
+				7FB5C3E9282076FA0041481B /* SampleDataSource.json */,
 			);
 			path = "poke-wordleTests";
 			sourceTree = "<group>";
@@ -181,13 +194,31 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		7FB5C3E32820719C0041481B /* Data */ = {
+		7FB5C3E32820719C0041481B /* Storage */ = {
 			isa = PBXGroup;
 			children = (
 				7FA466E9282059A600351D83 /* PersistenceController.swift */,
 				7FA466EB282059A600351D83 /* Storage.xcdatamodeld */,
 			);
-			path = Data;
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		7FB5C3E6282072DF0041481B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C3E4282072D80041481B /* Pokemon.swift */,
+				7FB5C3E72820739A0041481B /* PokemonType.swift */,
+				7FB5C3EB282078E30041481B /* MeasurementSystem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7FB5C3F128207B4E0041481B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C3EF28207B470041481B /* JSONHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FB5C3EA282076FA0041481B /* SampleDataSource.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,10 +375,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA4671028205B5C00351D83 /* CTAStyle.swift in Sources */,
+				7FB5C3E5282072D80041481B /* Pokemon.swift in Sources */,
 				7FA466EA282059A600351D83 /* PersistenceController.swift in Sources */,
 				7FB5C3DE282060B90041481B /* Color.swift in Sources */,
 				7FA466E3282059A500351D83 /* GameHistory.swift in Sources */,
 				7FA466E1282059A500351D83 /* MainApp.swift in Sources */,
+				7FB5C3E82820739A0041481B /* PokemonType.swift in Sources */,
+				7FB5C3EC282078E30041481B /* MeasurementSystem.swift in Sources */,
 				7FA466ED282059A600351D83 /* Storage.xcdatamodeld in Sources */,
 				7FA4671228205B7500351D83 /* Constant.swift in Sources */,
 			);
@@ -356,7 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA466F7282059A600351D83 /* poke_wordleTests.swift in Sources */,
+				7FA466F7282059A600351D83 /* PokemonTests.swift in Sources */,
+				7FB5C3F028207B470041481B /* JSONHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
