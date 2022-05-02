@@ -1,0 +1,131 @@
+[{
+    "id": 1,
+    "name": "bulbasaur",
+    "height": 7,
+    "weight": 69,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    },
+    "type": {
+        "primary": "grass",
+        "secondary": "poison"
+    }
+}, {
+    "id": 2,
+    "name": "ivysaur",
+    "height": 10,
+    "weight": 130,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+    },
+    "type": {
+        "primary": "grass",
+        "secondary": "poison"
+    }
+}, {
+    "id": 3,
+    "name": "venusaur",
+    "height": 20,
+    "weight": 1000,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+    },
+    "type": {
+        "primary": "grass",
+        "secondary": "poison"
+    }
+}, {
+    "id": 4,
+    "name": "charmander",
+    "height": 6,
+    "weight": 85,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+    },
+    "type": {
+        "primary": "fire",
+        "secondary": null
+    }
+}, {
+    "id": 5,
+    "name": "charmeleon",
+    "height": 11,
+    "weight": 190,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+    },
+    "type": {
+        "primary": "fire",
+        "secondary": null
+    }
+}, {
+    "id": 6,
+    "name": "charizard",
+    "height": 17,
+    "weight": 905,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    },
+    "type": {
+        "primary": "fire",
+        "secondary": "flying"
+    }
+}, {
+    "id": 7,
+    "name": "squirtle",
+    "height": 5,
+    "weight": 90,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+    },
+    "type": {
+        "primary": "water",
+        "secondary": null
+    }
+}, {
+    "id": 8,
+    "name": "wartortle",
+    "height": 10,
+    "weight": 225,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+    },
+    "type": {
+        "primary": "water",
+        "secondary": null
+    }
+}, {
+    "id": 9,
+    "name": "blastoise",
+    "height": 16,
+    "weight": 855,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+    },
+    "type": {
+        "primary": "water",
+        "secondary": null
+    }
+}, {
+    "id": 10,
+    "name": "caterpie",
+    "height": 3,
+    "weight": 29,
+    "spritePath": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+    },
+    "type": {
+        "primary": "bug",
+        "secondary": null
+    }
+}]
