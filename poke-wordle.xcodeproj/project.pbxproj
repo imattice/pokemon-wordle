@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FA466E1282059A500351D83 /* poke_wordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466E0282059A500351D83 /* poke_wordleApp.swift */; };
-		7FA466E3282059A500351D83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466E2282059A500351D83 /* ContentView.swift */; };
+		7FA466E1282059A500351D83 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466E0282059A500351D83 /* MainApp.swift */; };
+		7FA466E3282059A500351D83 /* GameHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466E2282059A500351D83 /* GameHistory.swift */; };
 		7FA466E5282059A600351D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA466E4282059A600351D83 /* Assets.xcassets */; };
 		7FA466E8282059A600351D83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA466E7282059A600351D83 /* Preview Assets.xcassets */; };
 		7FA466EA282059A600351D83 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466E9282059A600351D83 /* Persistence.swift */; };
-		7FA466ED282059A600351D83 /* poke_wordle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466EB282059A600351D83 /* poke_wordle.xcdatamodeld */; };
+		7FA466ED282059A600351D83 /* Storage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466EB282059A600351D83 /* Storage.xcdatamodeld */; };
 		7FA466F7282059A600351D83 /* poke_wordleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466F6282059A600351D83 /* poke_wordleTests.swift */; };
 		7FA46701282059A600351D83 /* poke_wordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA46700282059A600351D83 /* poke_wordleUITests.swift */; };
 		7FA46703282059A600351D83 /* poke_wordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA46702282059A600351D83 /* poke_wordleUITestsLaunchTests.swift */; };
+		7FA4671028205B5C00351D83 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4670F28205B5C00351D83 /* CTAButton.swift */; };
+		7FA4671228205B7500351D83 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4671128205B7500351D83 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		7FA466DD282059A500351D83 /* poke-wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poke-wordle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FA466E0282059A500351D83 /* poke_wordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_wordleApp.swift; sourceTree = "<group>"; };
-		7FA466E2282059A500351D83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FA466E0282059A500351D83 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		7FA466E2282059A500351D83 /* GameHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistory.swift; sourceTree = "<group>"; };
 		7FA466E4282059A600351D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA466E7282059A600351D83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FA466E9282059A600351D83 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		7FA466FC282059A600351D83 /* poke-wordleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poke-wordleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA46700282059A600351D83 /* poke_wordleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_wordleUITests.swift; sourceTree = "<group>"; };
 		7FA46702282059A600351D83 /* poke_wordleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_wordleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FA4670F28205B5C00351D83 /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
+		7FA4671128205B7500351D83 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 		7FA466DF282059A500351D83 /* poke-wordle */ = {
 			isa = PBXGroup;
 			children = (
-				7FA466E0282059A500351D83 /* poke_wordleApp.swift */,
-				7FA466E2282059A500351D83 /* ContentView.swift */,
+				7FA466E0282059A500351D83 /* MainApp.swift */,
+				7FA4670F28205B5C00351D83 /* CTAButton.swift */,
+				7FA4671128205B7500351D83 /* Constant.swift */,
+				7FA466E2282059A500351D83 /* GameHistory.swift */,
 				7FA466E4282059A600351D83 /* Assets.xcassets */,
 				7FA466E9282059A600351D83 /* Persistence.swift */,
-				7FA466EB282059A600351D83 /* poke_wordle.xcdatamodeld */,
+				7FA466EB282059A600351D83 /* Storage.xcdatamodeld */,
 				7FA466E6282059A600351D83 /* Preview Content */,
 			);
 			path = "poke-wordle";
@@ -140,6 +146,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FA46706282059A600351D83 /* Build configuration list for PBXNativeTarget "poke-wordle" */;
 			buildPhases = (
+				7FA4671328205FF000351D83 /* SwiftLint */,
 				7FA466D9282059A500351D83 /* Sources */,
 				7FA466DA282059A500351D83 /* Frameworks */,
 				7FA466DB282059A500351D83 /* Resources */,
@@ -258,15 +265,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7FA4671328205FF000351D83 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FA466D9282059A500351D83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA4671028205B5C00351D83 /* CTAButton.swift in Sources */,
 				7FA466EA282059A600351D83 /* Persistence.swift in Sources */,
-				7FA466E3282059A500351D83 /* ContentView.swift in Sources */,
-				7FA466E1282059A500351D83 /* poke_wordleApp.swift in Sources */,
-				7FA466ED282059A600351D83 /* poke_wordle.xcdatamodeld in Sources */,
+				7FA466E3282059A500351D83 /* GameHistory.swift in Sources */,
+				7FA466E1282059A500351D83 /* MainApp.swift in Sources */,
+				7FA466ED282059A600351D83 /* Storage.xcdatamodeld in Sources */,
+				7FA4671228205B7500351D83 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,13 +623,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7FA466EB282059A600351D83 /* poke_wordle.xcdatamodeld */ = {
+		7FA466EB282059A600351D83 /* Storage.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				7FA466EC282059A600351D83 /* poke_wordle.xcdatamodel */,
 			);
 			currentVersion = 7FA466EC282059A600351D83 /* poke_wordle.xcdatamodel */;
-			path = poke_wordle.xcdatamodeld;
+			path = Storage.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  GameHistory.swift
 //  poke-wordle
 //
 //  Created by Ike Mattice on 5/2/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct GameHistory: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -81,8 +81,9 @@ private let itemFormatter: DateFormatter = {
     return formatter
 }()
 
-struct ContentView_Previews: PreviewProvider {
+struct GameHistory_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        GameHistory()
+            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
