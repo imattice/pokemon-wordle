@@ -11,13 +11,14 @@
 		7FA466E3282059A500351D83 /* GameHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466E2282059A500351D83 /* GameHistory.swift */; };
 		7FA466E5282059A600351D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA466E4282059A600351D83 /* Assets.xcassets */; };
 		7FA466E8282059A600351D83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA466E7282059A600351D83 /* Preview Assets.xcassets */; };
-		7FA466EA282059A600351D83 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466E9282059A600351D83 /* Persistence.swift */; };
+		7FA466EA282059A600351D83 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466E9282059A600351D83 /* PersistenceController.swift */; };
 		7FA466ED282059A600351D83 /* Storage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466EB282059A600351D83 /* Storage.xcdatamodeld */; };
 		7FA466F7282059A600351D83 /* poke_wordleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA466F6282059A600351D83 /* poke_wordleTests.swift */; };
 		7FA46701282059A600351D83 /* poke_wordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA46700282059A600351D83 /* poke_wordleUITests.swift */; };
 		7FA46703282059A600351D83 /* poke_wordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA46702282059A600351D83 /* poke_wordleUITestsLaunchTests.swift */; };
-		7FA4671028205B5C00351D83 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4670F28205B5C00351D83 /* CTAButton.swift */; };
+		7FA4671028205B5C00351D83 /* CTAStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4670F28205B5C00351D83 /* CTAStyle.swift */; };
 		7FA4671228205B7500351D83 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4671128205B7500351D83 /* Constant.swift */; };
+		7FB5C3DE282060B90041481B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C3DD282060B90041481B /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,15 +44,16 @@
 		7FA466E2282059A500351D83 /* GameHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistory.swift; sourceTree = "<group>"; };
 		7FA466E4282059A600351D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA466E7282059A600351D83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7FA466E9282059A600351D83 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7FA466E9282059A600351D83 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		7FA466EC282059A600351D83 /* poke_wordle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = poke_wordle.xcdatamodel; sourceTree = "<group>"; };
 		7FA466F2282059A600351D83 /* poke-wordleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poke-wordleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA466F6282059A600351D83 /* poke_wordleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_wordleTests.swift; sourceTree = "<group>"; };
 		7FA466FC282059A600351D83 /* poke-wordleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poke-wordleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA46700282059A600351D83 /* poke_wordleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_wordleUITests.swift; sourceTree = "<group>"; };
 		7FA46702282059A600351D83 /* poke_wordleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_wordleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7FA4670F28205B5C00351D83 /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
+		7FA4670F28205B5C00351D83 /* CTAStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAStyle.swift; sourceTree = "<group>"; };
 		7FA4671128205B7500351D83 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7FB5C3DD282060B90041481B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				7FA466E0282059A500351D83 /* MainApp.swift */,
-				7FA4670F28205B5C00351D83 /* CTAButton.swift */,
+				7FA4670F28205B5C00351D83 /* CTAStyle.swift */,
 				7FA4671128205B7500351D83 /* Constant.swift */,
 				7FA466E2282059A500351D83 /* GameHistory.swift */,
-				7FA466E4282059A600351D83 /* Assets.xcassets */,
-				7FA466E9282059A600351D83 /* Persistence.swift */,
+				7FB5C3DC282060B10041481B /* Design */,
+				7FA466E9282059A600351D83 /* PersistenceController.swift */,
 				7FA466EB282059A600351D83 /* Storage.xcdatamodeld */,
 				7FA466E6282059A600351D83 /* Preview Content */,
 			);
@@ -137,6 +139,15 @@
 				7FA46702282059A600351D83 /* poke_wordleUITestsLaunchTests.swift */,
 			);
 			path = "poke-wordleUITests";
+			sourceTree = "<group>";
+		};
+		7FB5C3DC282060B10041481B /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				7FA466E4282059A600351D83 /* Assets.xcassets */,
+				7FB5C3DD282060B90041481B /* Color.swift */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,8 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA4671028205B5C00351D83 /* CTAButton.swift in Sources */,
-				7FA466EA282059A600351D83 /* Persistence.swift in Sources */,
+				7FA4671028205B5C00351D83 /* CTAStyle.swift in Sources */,
+				7FA466EA282059A600351D83 /* PersistenceController.swift in Sources */,
+				7FB5C3DE282060B90041481B /* Color.swift in Sources */,
 				7FA466E3282059A500351D83 /* GameHistory.swift in Sources */,
 				7FA466E1282059A500351D83 /* MainApp.swift in Sources */,
 				7FA466ED282059A600351D83 /* Storage.xcdatamodeld in Sources */,
