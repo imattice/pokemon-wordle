@@ -55,4 +55,46 @@ class PokemonTests: XCTestCase {
 
         XCTAssertEqual(first.idLabel, expectedLabel)
     }
+
+    func testMetricWeightLabel() {
+        guard let first = sampleData.first else {
+            XCTFail("Failed to find a a first item in sample data")
+            return
+        }
+        UserPreference.weightUnitPreference = .metric
+        let bulbasaurWeight: String = "6.9kg"
+
+        XCTAssertEqual(first.weightLabel, bulbasaurWeight)
+    }
+    func testUSWeightLabel() {
+        guard let first = sampleData.first else {
+            XCTFail("Failed to find a a first item in sample data")
+            return
+        }
+        UserPreference.weightUnitPreference = .unitedStates
+        let bulbasaurWeight: String = "15.2 lb"
+
+        XCTAssertEqual(first.weightLabel, bulbasaurWeight)
+    }
+    func testMetricHeightLabel() {
+        guard let first = sampleData.first else {
+            XCTFail("Failed to find a a first item in sample data")
+            return
+        }
+        UserPreference.heightUnitPreference = .metric
+        let bulbasaurHeight: String = "0.7m"
+
+        XCTAssertEqual(first.heightLabel, bulbasaurHeight)
+    }
+    func testUSHeightLabel() {
+        guard let first = sampleData.first else {
+            XCTFail("Failed to find a a first item in sample data")
+            return
+        }
+        UserPreference.heightUnitPreference = .unitedStates
+        let bulbasaurHeight: String = "2′ 4″"
+
+        XCTAssertEqual(first.heightLabel, bulbasaurHeight)
+    }
+
 }

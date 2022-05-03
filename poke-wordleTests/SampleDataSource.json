@@ -1,10 +1,10 @@
 [{
     "id": 1,
     "name": "bulbasaur",
-    "height": 7,
-    "weight": 69,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "height": 70,
+    "weight": 6900,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
     },
     "type": {
@@ -14,10 +14,10 @@
 }, {
     "id": 2,
     "name": "ivysaur",
-    "height": 10,
-    "weight": 130,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "height": 100,
+    "weight": 13000,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
     },
     "type": {
@@ -27,10 +27,10 @@
 }, {
     "id": 3,
     "name": "venusaur",
-    "height": 20,
-    "weight": 1000,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "height": 200,
+    "weight": 100000,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
     },
     "type": {
@@ -40,10 +40,10 @@
 }, {
     "id": 4,
     "name": "charmander",
-    "height": 6,
-    "weight": 85,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "height": 60,
+    "weight": 8500,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
     },
     "type": {
@@ -53,10 +53,10 @@
 }, {
     "id": 5,
     "name": "charmeleon",
-    "height": 11,
-    "weight": 190,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "height": 110,
+    "weight": 19000,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
     },
     "type": {
@@ -66,10 +66,10 @@
 }, {
     "id": 6,
     "name": "charizard",
-    "height": 17,
-    "weight": 905,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "height": 170,
+    "weight": 90500,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
     },
     "type": {
@@ -79,10 +79,10 @@
 }, {
     "id": 7,
     "name": "squirtle",
-    "height": 5,
-    "weight": 90,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "height": 50,
+    "weight": 9000,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
     },
     "type": {
@@ -92,10 +92,10 @@
 }, {
     "id": 8,
     "name": "wartortle",
-    "height": 10,
-    "weight": 225,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "height": 100,
+    "weight": 22500,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
     },
     "type": {
@@ -105,10 +105,10 @@
 }, {
     "id": 9,
     "name": "blastoise",
-    "height": 16,
-    "weight": 855,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "height": 160,
+    "weight": 85500,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
     },
     "type": {
@@ -118,10 +118,10 @@
 }, {
     "id": 10,
     "name": "caterpie",
-    "height": 3,
-    "weight": 29,
-    "spritePath": {
-        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "height": 30,
+    "weight": 2900,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
         "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
     },
     "type": {

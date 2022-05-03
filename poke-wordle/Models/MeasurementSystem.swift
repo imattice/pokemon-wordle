@@ -5,7 +5,7 @@
 //  Created by Ike Mattice on 5/2/22.
 //
 
-enum MeasurementSystem {
-    case metric
-    case unitedStates
+enum MeasurementSystem: Int {
+    case metric = 0
+    case unitedStates = 1
 }
