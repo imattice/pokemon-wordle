@@ -96,5 +96,4 @@ class PokemonTests: XCTestCase {
 
         XCTAssertEqual(first.heightLabel, bulbasaurHeight)
     }
-
 }

@@ -13,9 +13,9 @@
 "AppSettings.Gameplay.Cell.Title.history" = "Game History";
 // Notifications
 "AppSettings.Notifications.header" = "Notifications";
-"AppSettings.Notifications.Cell.Title.morning" = "Morning";
-"AppSettings.Notifications.Cell.Title.evening" = "Evening";
-"AppSettings.Notifications.Cell.Value.none" = "None";
+"AppSettings.Notifications.footer" = "Receive a daily reminder to play";
+"AppSettings.Notifications.Cell.Title.enable" = "Enable Notifications";
+"AppSettings.Notifications.Cell.Title.time" = "Notification Time";
 // Measurement Preference
 "AppSettings.MeasurementPreference.header" = "Measurement Preference";
 "AppSettings.MeasurementPreference.Cell.Title.height" = "Height";

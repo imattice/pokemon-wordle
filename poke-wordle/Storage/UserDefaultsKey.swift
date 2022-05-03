@@ -9,6 +9,7 @@ enum UserDefaultsKey {
     case starterPokemon
     case weightUnitPreference
     case heightUnitPreference
+    case notificationTime
 
     var key: String {
         switch self {
@@ -18,6 +19,8 @@ enum UserDefaultsKey {
             return "weightUnitPreference"
         case .heightUnitPreference:
             return "heightUnitPreference"
+        case .notificationTime:
+            return "notificationTime"
         }
     }
 }

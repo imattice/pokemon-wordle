@@ -11,6 +11,7 @@ struct AppSettingsScreen: View {
     var body: some View {
         List {
             GameplaySection()
+            NotificationSection()
         }
     }
 }

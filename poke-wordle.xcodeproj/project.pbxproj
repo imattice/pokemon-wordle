@@ -35,6 +35,8 @@
 		7FB5C40E2821C06D0041481B /* GameplaySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C40D2821C06D0041481B /* GameplaySection.swift */; };
 		7FB5C4102821C0D20041481B /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C40F2821C0D20041481B /* SectionHeader.swift */; };
 		7FB5C4122821C1ED0041481B /* StarterSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4112821C1ED0041481B /* StarterSelectionScreen.swift */; };
+		7FB5C4142821CA970041481B /* NotificationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4132821CA970041481B /* NotificationSection.swift */; };
+		7FB5C4162821CE8E0041481B /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4152821CE8E0041481B /* DetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		7FB5C40D2821C06D0041481B /* GameplaySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplaySection.swift; sourceTree = "<group>"; };
 		7FB5C40F2821C0D20041481B /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		7FB5C4112821C1ED0041481B /* StarterSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterSelectionScreen.swift; sourceTree = "<group>"; };
+		7FB5C4132821CA970041481B /* NotificationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSection.swift; sourceTree = "<group>"; };
+		7FB5C4152821CE8E0041481B /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				7FB5C3E12820715B0041481B /* ButtonStyle */,
+				7FB5C4152821CE8E0041481B /* DetailCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				7FB5C4002821ACF50041481B /* AppSettingsScreen.swift */,
 				7FB5C40D2821C06D0041481B /* GameplaySection.swift */,
 				7FB5C40F2821C0D20041481B /* SectionHeader.swift */,
+				7FB5C4132821CA970041481B /* NotificationSection.swift */,
 			);
 			path = AppSettingsScreen;
 			sourceTree = "<group>";
@@ -441,9 +447,11 @@
 				7FB5C3E5282072D80041481B /* Pokemon.swift in Sources */,
 				7FA466EA282059A600351D83 /* PersistenceController.swift in Sources */,
 				7FB5C3DE282060B90041481B /* Color.swift in Sources */,
+				7FB5C4142821CA970041481B /* NotificationSection.swift in Sources */,
 				7FB5C4102821C0D20041481B /* SectionHeader.swift in Sources */,
 				7FB5C40E2821C06D0041481B /* GameplaySection.swift in Sources */,
 				7FA466E3282059A500351D83 /* GameHistoryScreen.swift in Sources */,
+				7FB5C4162821CE8E0041481B /* DetailCell.swift in Sources */,
 				7FA466E1282059A500351D83 /* MainApp.swift in Sources */,
 				7FB5C3FF2820C8880041481B /* JSONHelper.swift in Sources */,
 				7FB5C4012821ACF50041481B /* AppSettingsScreen.swift in Sources */,

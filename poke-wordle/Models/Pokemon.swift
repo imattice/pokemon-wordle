@@ -76,7 +76,7 @@ extension Pokemon {
     }
 }
 
-// MARK:  - Measurement Formatters
+// MARK: - Measurement Formatters
 extension Pokemon {
     private var measurementFormatter: MeasurementFormatter {
         let formatter: MeasurementFormatter = MeasurementFormatter()
@@ -87,7 +87,7 @@ extension Pokemon {
         return formatter
     }
     private var usLengthFormatter: LengthFormatter {
-        let formatter = LengthFormatter()
+        let formatter: LengthFormatter = LengthFormatter()
         formatter.isForPersonHeightUse = true
         formatter.numberFormatter.maximumFractionDigits = 0
         formatter.unitStyle = .short

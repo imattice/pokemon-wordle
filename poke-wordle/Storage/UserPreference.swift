@@ -51,4 +51,20 @@ enum UserPreference {
             UserDefaults.standard.set(newValue.rawValue, forKey: UserDefaultsKey.heightUnitPreference.key)
         }
     }
+
+    static var notificationTime: Date? {
+        get {
+            if let date: Date = UserDefaults.standard.object(forKey: UserDefaultsKey.notificationTime.key) as? Date {
+                return date
+            }
+            return nil
+            }
+        set {
+            if let date: Date = newValue {
+                UserDefaults.standard.set(date, forKey: UserDefaultsKey.notificationTime.key)
+            } else {
+                UserDefaults.standard.removeObject(forKey: UserDefaultsKey.notificationTime.key)
+            }
+        }
+    }
 }
