@@ -13,8 +13,11 @@ struct MainApp: App {
 
     var body: some Scene {
         WindowGroup {
-            GameHistory()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationView {
+                AppSettingsScreen()
+            }
+            .navigationBarTitleDisplayMode(.inline)
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

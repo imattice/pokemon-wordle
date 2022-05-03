@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  poke-wordle
+
+  Created by Ike Mattice on 5/3/22.
+  
+*/
+
+// MARK: - App Settings
+// Gameplay
+"AppSettings.Gameplay.header" = "Gameplay";
+"AppSettings.Gameplay.Cell.Title.starter" = "Starter Pokemon";
+"AppSettings.Gameplay.Cell.Title.history" = "Game History";
+// Notifications
+"AppSettings.Notifications.header" = "Notifications";
+"AppSettings.Notifications.Cell.Title.morning" = "Morning";
+"AppSettings.Notifications.Cell.Title.evening" = "Evening";
+"AppSettings.Notifications.Cell.Value.none" = "None";
+// Measurement Preference
+"AppSettings.MeasurementPreference.header" = "Measurement Preference";
+"AppSettings.MeasurementPreference.Cell.Title.height" = "Height";
+"AppSettings.MeasurementPreference.Cell.Title.weight" = "Weight";
+// Feedback
+"AppSettings.Feedback.Cell.Title.feedback" = "Feedback";
+
+// MARK: - Measurement Preference
+"MeasurementPreference.metric" = "Metric";
+"MeasurementPreference.unitedStates" = "United States";

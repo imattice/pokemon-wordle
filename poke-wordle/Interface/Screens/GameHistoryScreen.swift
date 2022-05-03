@@ -1,5 +1,5 @@
 //
-//  GameHistory.swift
+//  GameHistoryScreen.swift
 //  poke-wordle
 //
 //  Created by Ike Mattice on 5/2/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct GameHistory: View {
+struct GameHistoryScreen: View {
     @Environment(\.managedObjectContext) private var viewContext: NSManagedObjectContext
     @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)], animation: .default) private var items: FetchedResults<Item>
 
@@ -80,7 +80,7 @@ private let itemFormatter: DateFormatter = {
 
 struct GameHistory_Previews: PreviewProvider {
     static var previews: some View {
-        GameHistory()
+        GameHistoryScreen()
             .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
