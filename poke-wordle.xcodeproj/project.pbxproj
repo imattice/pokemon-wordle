@@ -44,6 +44,7 @@
 		7FB5C426282327290041481B /* RowConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C425282327290041481B /* RowConfiguration.swift */; };
 		7FB5C4282823275A0041481B /* SelectableRowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4272823275A0041481B /* SelectableRowStyle.swift */; };
 		7FB5C42A2823277D0041481B /* DefaultRowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4292823277D0041481B /* DefaultRowStyle.swift */; };
+		7FB5C42D282337DB0041481B /* MeasurementSystemSelectableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C42C282337DB0041481B /* MeasurementSystemSelectableList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		7FB5C425282327290041481B /* RowConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowConfiguration.swift; sourceTree = "<group>"; };
 		7FB5C4272823275A0041481B /* SelectableRowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableRowStyle.swift; sourceTree = "<group>"; };
 		7FB5C4292823277D0041481B /* DefaultRowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRowStyle.swift; sourceTree = "<group>"; };
+		7FB5C42C282337DB0041481B /* MeasurementSystemSelectableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementSystemSelectableList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +314,7 @@
 			children = (
 				7FB5C41A2821FD880041481B /* SelectableList.swift */,
 				7FB5C41D2821FD9A0041481B /* Row.swift */,
+				7FB5C42C282337DB0041481B /* MeasurementSystemSelectableList.swift */,
 			);
 			path = SelectableList;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 				7FB5C40E2821C06D0041481B /* GameplaySection.swift in Sources */,
 				7FB5C41E2821FD9A0041481B /* Row.swift in Sources */,
 				7FB5C426282327290041481B /* RowConfiguration.swift in Sources */,
+				7FB5C42D282337DB0041481B /* MeasurementSystemSelectableList.swift in Sources */,
 				7FA466E3282059A500351D83 /* GameHistoryScreen.swift in Sources */,
 				7FB5C4162821CE8E0041481B /* DetailCell.swift in Sources */,
 				7FB5C4182821F85D0041481B /* MeasurementPreferenceSection.swift in Sources */,

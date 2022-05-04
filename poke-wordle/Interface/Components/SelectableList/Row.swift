@@ -27,7 +27,6 @@ struct Row<Content: View>: View {
     //        self.content = { DefaultRow(title: title, image: image)  as! Content }
     //    }
 
-
     @ViewBuilder private func defaultRow<Content: View>(title: String, image: Image? = nil) -> some View {
         HStack {
             if let image: Image = image {

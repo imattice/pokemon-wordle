@@ -15,8 +15,14 @@ extension MeasurementSystem {
         switch self {
         case .metric:
             return l10n.MeasurementPreference.metric
+
         case .unitedStates:
             return l10n.MeasurementPreference.unitedStates
         }
     }
+}
+
+// MARK: - Identifiable
+extension MeasurementSystem: Identifiable {
+    var id: Self { self }
 }

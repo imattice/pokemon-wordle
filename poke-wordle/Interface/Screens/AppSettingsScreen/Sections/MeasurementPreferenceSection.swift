@@ -11,31 +11,26 @@ struct MeasurementPreferenceSection: View {
     @State private var weightPreference: MeasurementSystem = UserPreference.weightUnitPreference
     @State private var heightPreference: MeasurementSystem = UserPreference.heightUnitPreference
 
-
     var body: some View {
-        Text("hi")
-        //        Section(content: {
-        //            NavigationLink(destination: List(selection: $heightPreference,
-        //                                             content: { ForEach(MeasurementSystem.allCases, content: <#T##(_.Element) -> _#>)})) {
-        //
-        //            } DetailCell(l10n.AppSettings.MeasurementPreference.Cell.Title.height,
-        //                       detail: <#T##String#>)
-        //            DetailCell(l10n.AppSettings.MeasurementPreference.Cell.Title.weight,
-        //                       detail: <#T##String#>)
-        //        },
-        //                header: {
-        //            Text(l10n.AppSettings.MeasurementPreference.header)
-        //        })
-    }
-
-    private func saveSelections() {
-
+        Section(content: {
+            NavigationLink(
+                destination: MeasurementSystemSelectableList(
+                    selection: $heightPreference)) {
+                        DetailCell(l10n.AppSettings.MeasurementPreference.Cell.Title.height,
+                                   detail: heightPreference.label)
+            }
+            NavigationLink(
+                destination: MeasurementSystemSelectableList(
+                    selection: $weightPreference)) {
+                        DetailCell(l10n.AppSettings.MeasurementPreference.Cell.Title.weight,
+                                   detail: weightPreference.label)
+            }
+        },
+                header: {
+            Text(l10n.AppSettings.MeasurementPreference.header)
+        })
     }
 }
-
-//extension MeasurementPreferenceSection {
-//    struct SelectableList
-//}
 
 struct MeasurementPreferenceSection_Previews: PreviewProvider {
     static var previews: some View {

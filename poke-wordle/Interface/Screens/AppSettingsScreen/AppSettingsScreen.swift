@@ -12,6 +12,7 @@ struct AppSettingsScreen: View {
         List {
             GameplaySection()
             NotificationSection()
+            MeasurementPreferenceSection()
         }
     }
 }

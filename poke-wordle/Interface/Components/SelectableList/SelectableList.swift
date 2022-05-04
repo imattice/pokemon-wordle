@@ -7,31 +7,37 @@
 
 import SwiftUI
 
-struct SelectableList<Item: Identifiable, Content: View>: View {
-    var items: [Item]
-    @Binding var selectedItem: Item?
-    var rowContent: (Item) -> Content
+struct SelectableList<Option: Identifiable, Content: View>: View {
+    var options: [Option]
+    @Binding var selection: Option
+    var rowView: (Option) -> Content
 
     var body: some View {
-        List(items) { item in
+        List(options) { item in
             Row {
-                rowContent(item)
+                rowView(item)
             }
-            .rowStyle(SelectableRowStyle(isChecked: item.id == selectedItem?.id))
+            .rowStyle(SelectableRowStyle(isChecked: item.id == selection.id))
             .contentShape(Rectangle())
             .onTapGesture {
-                print(item)
-                self.selectedItem = item
+                updateSelected(with: item)
             }
         }
     }
 
-    func updateSelected(with item: Item) {
-        if item.id == self.selectedItem?.id {
-            selectedItem = nil
-            return
-        }
-        selectedItem = item
+    /// Creates a `SelectableList`with a selection
+    /// - Parameters:
+    ///   - options: The options presented in the list
+    ///   - selection: The selection the user has made
+    ///   - rowView: The view for each row
+    init(options: [Option], selection: Binding<Option>, rowView: @escaping (Option) -> Content) {
+        self.options = options
+        self._selection = selection
+        self.rowView = rowView
+    }
+
+    func updateSelected(with item: Option) {
+        selection = item
     }
 }
 
@@ -42,19 +48,19 @@ struct SelectableList_Previews: PreviewProvider {
         PreviewItem(title: "bananas"),
         PreviewItem(title: "pineapples")
     ]
-    @State private static var selectedItem: PreviewItem? = items[2]
+    @State static var selectedItem: PreviewItem = items[2]
 
-    private struct PreviewItem: Identifiable {
+    struct PreviewItem: Identifiable {
         var id: UUID = UUID()
         let title: String
     }
 
     static var previews: some View {
         VStack {
-            Text(selectedItem?.title ?? "n")
+            Text(selectedItem.title)
             SelectableList(
-                items: items,
-                selectedItem: $selectedItem) { item in
+                options: items,
+                selection: $selectedItem) { item in
                     Text(item.title)
             }
         }
