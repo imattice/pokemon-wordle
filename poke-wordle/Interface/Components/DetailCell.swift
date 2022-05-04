@@ -18,7 +18,6 @@ struct DetailCell: View {
             Text(detail)
                 .foregroundColor(Color(uiColor: .systemGray4))
         }
-        .padding()
     }
 
     init(_ title: String, detail: String) {

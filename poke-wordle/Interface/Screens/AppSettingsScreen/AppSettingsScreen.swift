@@ -14,6 +14,7 @@ struct AppSettingsScreen: View {
             NotificationSection()
             MeasurementPreferenceSection()
         }
+        .listStyle(.grouped)
     }
 }
 

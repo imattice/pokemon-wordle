@@ -13,9 +13,7 @@ struct MeasurementSystemSelectableList: View {
         SelectableList(
             options: MeasurementSystem.allCases,
             selection: $selection) { item in
-                Row {
-                    Text(item.label)
-                }
+                Text(item.label)
         }
     }
 }
