@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct NotificationSection: View {
-    @State var notificationEnabled: Bool = UserPreference.notificationTime != nil
-    @State var notificationTime: Date? = UserPreference.notificationTime
+    @State private var notificationEnabled: Bool = UserPreference.notificationTime != nil
+    @State private var notificationTime: Date? = UserPreference.notificationTime
 
     var body: some View {
         Section(
@@ -29,9 +29,13 @@ struct NotificationSection: View {
             header: { Text(l10n.AppSettings.Notifications.header) },
             footer: { Text(l10n.AppSettings.Notifications.footer) })
         .onDisappear {
-            if notificationEnabled == false {
-                notificationTime = nil
-            }
+            saveSelections()
+        }
+    }
+
+    private func saveSelections() {
+        if notificationEnabled == false {
+            notificationTime = nil
         }
     }
 }

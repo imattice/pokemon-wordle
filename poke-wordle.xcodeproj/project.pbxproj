@@ -33,10 +33,17 @@
 		7FB5C4042821ADA40041481B /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4032821ADA40041481B /* LocalizedStrings.swift */; };
 		7FB5C4072821AE660041481B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FB5C4092821AE660041481B /* Localizable.strings */; };
 		7FB5C40E2821C06D0041481B /* GameplaySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C40D2821C06D0041481B /* GameplaySection.swift */; };
-		7FB5C4102821C0D20041481B /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C40F2821C0D20041481B /* SectionHeader.swift */; };
 		7FB5C4122821C1ED0041481B /* StarterSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4112821C1ED0041481B /* StarterSelectionScreen.swift */; };
 		7FB5C4142821CA970041481B /* NotificationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4132821CA970041481B /* NotificationSection.swift */; };
 		7FB5C4162821CE8E0041481B /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4152821CE8E0041481B /* DetailCell.swift */; };
+		7FB5C4182821F85D0041481B /* MeasurementPreferenceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4172821F85D0041481B /* MeasurementPreferenceSection.swift */; };
+		7FB5C41B2821FD880041481B /* SelectableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C41A2821FD880041481B /* SelectableList.swift */; };
+		7FB5C41E2821FD9A0041481B /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C41D2821FD9A0041481B /* Row.swift */; };
+		7FB5C420282326390041481B /* RowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C41F282326390041481B /* RowStyle.swift */; };
+		7FB5C4242823270A0041481B /* AnyRowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4232823270A0041481B /* AnyRowStyle.swift */; };
+		7FB5C426282327290041481B /* RowConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C425282327290041481B /* RowConfiguration.swift */; };
+		7FB5C4282823275A0041481B /* SelectableRowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4272823275A0041481B /* SelectableRowStyle.swift */; };
+		7FB5C42A2823277D0041481B /* DefaultRowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4292823277D0041481B /* DefaultRowStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,10 +93,17 @@
 		7FB5C4032821ADA40041481B /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
 		7FB5C4082821AE660041481B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7FB5C40D2821C06D0041481B /* GameplaySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplaySection.swift; sourceTree = "<group>"; };
-		7FB5C40F2821C0D20041481B /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		7FB5C4112821C1ED0041481B /* StarterSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterSelectionScreen.swift; sourceTree = "<group>"; };
 		7FB5C4132821CA970041481B /* NotificationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSection.swift; sourceTree = "<group>"; };
 		7FB5C4152821CE8E0041481B /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		7FB5C4172821F85D0041481B /* MeasurementPreferenceSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementPreferenceSection.swift; sourceTree = "<group>"; };
+		7FB5C41A2821FD880041481B /* SelectableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableList.swift; sourceTree = "<group>"; };
+		7FB5C41D2821FD9A0041481B /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		7FB5C41F282326390041481B /* RowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowStyle.swift; sourceTree = "<group>"; };
+		7FB5C4232823270A0041481B /* AnyRowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyRowStyle.swift; sourceTree = "<group>"; };
+		7FB5C425282327290041481B /* RowConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowConfiguration.swift; sourceTree = "<group>"; };
+		7FB5C4272823275A0041481B /* SelectableRowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableRowStyle.swift; sourceTree = "<group>"; };
+		7FB5C4292823277D0041481B /* DefaultRowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRowStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,8 +215,9 @@
 		7FB5C3E0282071440041481B /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				7FB5C3E12820715B0041481B /* ButtonStyle */,
+				7FB5C4212823263F0041481B /* Style */,
 				7FB5C4152821CE8E0041481B /* DetailCell.swift */,
+				7FB5C41C2821FD900041481B /* SelectableList */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -277,11 +292,57 @@
 			isa = PBXGroup;
 			children = (
 				7FB5C4002821ACF50041481B /* AppSettingsScreen.swift */,
-				7FB5C40D2821C06D0041481B /* GameplaySection.swift */,
-				7FB5C40F2821C0D20041481B /* SectionHeader.swift */,
-				7FB5C4132821CA970041481B /* NotificationSection.swift */,
+				7FB5C4192821F9C50041481B /* Sections */,
 			);
 			path = AppSettingsScreen;
+			sourceTree = "<group>";
+		};
+		7FB5C4192821F9C50041481B /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C40D2821C06D0041481B /* GameplaySection.swift */,
+				7FB5C4132821CA970041481B /* NotificationSection.swift */,
+				7FB5C4172821F85D0041481B /* MeasurementPreferenceSection.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		7FB5C41C2821FD900041481B /* SelectableList */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C41A2821FD880041481B /* SelectableList.swift */,
+				7FB5C41D2821FD9A0041481B /* Row.swift */,
+			);
+			path = SelectableList;
+			sourceTree = "<group>";
+		};
+		7FB5C4212823263F0041481B /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C422282326460041481B /* RowStyle */,
+				7FB5C3E12820715B0041481B /* ButtonStyle */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		7FB5C422282326460041481B /* RowStyle */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C41F282326390041481B /* RowStyle.swift */,
+				7FB5C425282327290041481B /* RowConfiguration.swift */,
+				7FB5C42B28232E3C0041481B /* Styles */,
+			);
+			path = RowStyle;
+			sourceTree = "<group>";
+		};
+		7FB5C42B28232E3C0041481B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C4232823270A0041481B /* AnyRowStyle.swift */,
+				7FB5C4272823275A0041481B /* SelectableRowStyle.swift */,
+				7FB5C4292823277D0041481B /* DefaultRowStyle.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FB5C4282823275A0041481B /* SelectableRowStyle.swift in Sources */,
 				7FB5C3FE2820BB260041481B /* DataSource.swift in Sources */,
 				7FB5C3FA2820BA310041481B /* NetworkHelper.swift in Sources */,
 				7FB5C4122821C1ED0041481B /* StarterSelectionScreen.swift in Sources */,
@@ -448,12 +510,16 @@
 				7FA466EA282059A600351D83 /* PersistenceController.swift in Sources */,
 				7FB5C3DE282060B90041481B /* Color.swift in Sources */,
 				7FB5C4142821CA970041481B /* NotificationSection.swift in Sources */,
-				7FB5C4102821C0D20041481B /* SectionHeader.swift in Sources */,
 				7FB5C40E2821C06D0041481B /* GameplaySection.swift in Sources */,
+				7FB5C41E2821FD9A0041481B /* Row.swift in Sources */,
+				7FB5C426282327290041481B /* RowConfiguration.swift in Sources */,
 				7FA466E3282059A500351D83 /* GameHistoryScreen.swift in Sources */,
 				7FB5C4162821CE8E0041481B /* DetailCell.swift in Sources */,
+				7FB5C4182821F85D0041481B /* MeasurementPreferenceSection.swift in Sources */,
 				7FA466E1282059A500351D83 /* MainApp.swift in Sources */,
 				7FB5C3FF2820C8880041481B /* JSONHelper.swift in Sources */,
+				7FB5C420282326390041481B /* RowStyle.swift in Sources */,
+				7FB5C41B2821FD880041481B /* SelectableList.swift in Sources */,
 				7FB5C4012821ACF50041481B /* AppSettingsScreen.swift in Sources */,
 				7FB5C4042821ADA40041481B /* LocalizedStrings.swift in Sources */,
 				7FB5C3E82820739A0041481B /* PokemonType.swift in Sources */,
@@ -461,6 +527,8 @@
 				7FA466ED282059A600351D83 /* Storage.xcdatamodeld in Sources */,
 				7FA4671228205B7500351D83 /* Constant.swift in Sources */,
 				7FB5C3F32820ADC50041481B /* UserDefaultsKey.swift in Sources */,
+				7FB5C4242823270A0041481B /* AnyRowStyle.swift in Sources */,
+				7FB5C42A2823277D0041481B /* DefaultRowStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
