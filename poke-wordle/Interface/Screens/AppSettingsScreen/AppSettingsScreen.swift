@@ -13,8 +13,10 @@ struct AppSettingsScreen: View {
             GameplaySection()
             NotificationSection()
             MeasurementPreferenceSection()
+            FeedbackSection()
         }
         .listStyle(.grouped)
+        .navigationBarTitleDisplayMode(.inline)        
     }
 }
 

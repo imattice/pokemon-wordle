@@ -45,6 +45,10 @@
 		7FB5C4282823275A0041481B /* SelectableRowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4272823275A0041481B /* SelectableRowStyle.swift */; };
 		7FB5C42A2823277D0041481B /* DefaultRowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4292823277D0041481B /* DefaultRowStyle.swift */; };
 		7FB5C42D282337DB0041481B /* MeasurementSystemSelectableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C42C282337DB0041481B /* MeasurementSystemSelectableList.swift */; };
+		7FB5C42F282343E90041481B /* FeedbackSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C42E282343E90041481B /* FeedbackSection.swift */; };
+		7FB5C431282344530041481B /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C430282344530041481B /* MailView.swift */; };
+		7FB5C435282349860041481B /* EmailComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C434282349860041481B /* EmailComponents.swift */; };
+		7FB5C4372823569B0041481B /* EmailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5C4362823569B0041481B /* EmailHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +110,10 @@
 		7FB5C4272823275A0041481B /* SelectableRowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableRowStyle.swift; sourceTree = "<group>"; };
 		7FB5C4292823277D0041481B /* DefaultRowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRowStyle.swift; sourceTree = "<group>"; };
 		7FB5C42C282337DB0041481B /* MeasurementSystemSelectableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementSystemSelectableList.swift; sourceTree = "<group>"; };
+		7FB5C42E282343E90041481B /* FeedbackSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSection.swift; sourceTree = "<group>"; };
+		7FB5C430282344530041481B /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		7FB5C434282349860041481B /* EmailComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailComponents.swift; sourceTree = "<group>"; };
+		7FB5C4362823569B0041481B /* EmailHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +218,7 @@
 				7FA4671128205B7500351D83 /* Constant.swift */,
 				7FB5C3E0282071440041481B /* Components */,
 				7FB5C3E2282071710041481B /* Screens */,
+				7FB5C432282344AF0041481B /* UIViewRepresentable */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -269,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				7FB5C3EF28207B470041481B /* JSONHelper.swift */,
+				7FB5C4362823569B0041481B /* EmailHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -305,6 +315,7 @@
 				7FB5C40D2821C06D0041481B /* GameplaySection.swift */,
 				7FB5C4132821CA970041481B /* NotificationSection.swift */,
 				7FB5C4172821F85D0041481B /* MeasurementPreferenceSection.swift */,
+				7FB5C42E282343E90041481B /* FeedbackSection.swift */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -346,6 +357,23 @@
 				7FB5C4292823277D0041481B /* DefaultRowStyle.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		7FB5C432282344AF0041481B /* UIViewRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C4332823497B0041481B /* MailView */,
+			);
+			path = UIViewRepresentable;
+			sourceTree = "<group>";
+		};
+		7FB5C4332823497B0041481B /* MailView */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5C430282344530041481B /* MailView.swift */,
+				7FB5C434282349860041481B /* EmailComponents.swift */,
+			);
+			path = MailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +531,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FB5C4372823569B0041481B /* EmailHelper.swift in Sources */,
 				7FB5C4282823275A0041481B /* SelectableRowStyle.swift in Sources */,
 				7FB5C3FE2820BB260041481B /* DataSource.swift in Sources */,
 				7FB5C3FA2820BA310041481B /* NetworkHelper.swift in Sources */,
@@ -510,6 +539,7 @@
 				7FA4671028205B5C00351D83 /* CTAStyle.swift in Sources */,
 				7FB5C3F52820AEAB0041481B /* UserPreference.swift in Sources */,
 				7FB5C3E5282072D80041481B /* Pokemon.swift in Sources */,
+				7FB5C431282344530041481B /* MailView.swift in Sources */,
 				7FA466EA282059A600351D83 /* PersistenceController.swift in Sources */,
 				7FB5C3DE282060B90041481B /* Color.swift in Sources */,
 				7FB5C4142821CA970041481B /* NotificationSection.swift in Sources */,
@@ -517,6 +547,8 @@
 				7FB5C41E2821FD9A0041481B /* Row.swift in Sources */,
 				7FB5C426282327290041481B /* RowConfiguration.swift in Sources */,
 				7FB5C42D282337DB0041481B /* MeasurementSystemSelectableList.swift in Sources */,
+				7FB5C435282349860041481B /* EmailComponents.swift in Sources */,
+				7FB5C42F282343E90041481B /* FeedbackSection.swift in Sources */,
 				7FA466E3282059A500351D83 /* GameHistoryScreen.swift in Sources */,
 				7FB5C4162821CE8E0041481B /* DetailCell.swift in Sources */,
 				7FB5C4182821F85D0041481B /* MeasurementPreferenceSection.swift in Sources */,
@@ -719,7 +751,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -748,7 +780,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -5,6 +5,7 @@
   Created by Ike Mattice on 5/3/22.
   
 */
+"appName" = "Poke-Wordle";
 
 // MARK: - App Settings
 // Gameplay

@@ -12,6 +12,9 @@ typealias l10n = LocalizedStrings
 /* swiftlint:enable type_name */
 
 enum LocalizedStrings {
+    static let appName = NSLocalizedString("appName",
+                                           comment: "The name of the application")
+
     enum AppSettings {
         enum Gameplay {
             static let header = NSLocalizedString(
