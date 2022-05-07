@@ -19,7 +19,7 @@ class GameManager {
 
     func loadGames() {
         if gameHistory.isEmpty {
-            gameHistory = loadLocalData()()
+            gameHistory = loadLocalData()
 
 //            if gameHistory.isEmpty {
 //                fetchGameHistory()
@@ -50,11 +50,16 @@ class GameManager {
     }
 
     func loadLocalData() -> [Game] {
-        guard let data: Data = JSONHelper.readLocalFile(forName: "LocalGameRecord"),
-              let decoded: [GameRecord] = try? JSONDecoder().decode([GameRecord].self, from: data) else {
+        guard let data: Data = JSONHelper.readLocalFile(forName: "MockGameRecords") else {
+            print("Failed to read data from MockGameRecords")
             return [Game]()
         }
-
-        return decoded.map { $0.game() }
+        do {
+            let decoded: [GameRecord] = try JSONDecoder().decode([GameRecord].self, from: data)
+            return decoded.map { $0.game() }
+        } catch {
+            print("could not decode: \(error)")
+        }
+        return [Game]()
     }
 }

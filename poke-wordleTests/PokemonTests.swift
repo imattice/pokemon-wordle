@@ -9,7 +9,7 @@ import XCTest
 @testable import poke_wordle
 
 class PokemonTests: XCTestCase {
-    let dataSourceFileName: String = "TestDataSource"
+    let dataSourceFileName: String = "MockDataSource"
 
     var sampleData: [Pokemon] = [Pokemon]()
 

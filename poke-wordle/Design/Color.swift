@@ -35,6 +35,8 @@ extension Color {
         /* swiftlint:enable discouraged_none_name */
         static let normal: Color = Color("Color/Type/Normal")
         static let poison: Color = Color("Color/Type/Poison")
+        static let psychic: Color = Color("Color/Type/Psychic")
+        static let rock: Color = Color("Color/Type/Rock")
         static let steel: Color = Color("Color/Type/Steel")
         static let water: Color = Color("Color/Type/Water")
     }

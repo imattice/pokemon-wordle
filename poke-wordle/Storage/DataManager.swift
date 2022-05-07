@@ -13,18 +13,9 @@ enum DataManager {
         /// - Returns: A collection of Pokemon fetched from the API, or a network error
         private static func fetch() -> Result<[Pokemon], Error> {
             // FIXME: Update to endpoint
-            return .success(fetchLocal())
+            return .success(PreviewDataManager.datasource)
         }
-
-        private static func fetchLocal() -> [Pokemon] {
-            guard let data: Data = JSONHelper.readLocalFile(forName: "LocalDataSource"),
-                  let decoded: [Pokemon] = try? JSONDecoder().decode([Pokemon].self, from: data) else {
-                return [Pokemon]()
-            }
-
-            return decoded
-        }
-
+        
         static func save() {
         }
     }

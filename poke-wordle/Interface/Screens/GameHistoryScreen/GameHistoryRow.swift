@@ -39,12 +39,9 @@ struct GameHistoryRow: View {
 }
 
 struct GameHistoryRow_Previews: PreviewProvider {
-    static let game: Game? = GameManager.shared.loadLocalData().first
+    static let game: Game = PreviewDataManager.game
+
     static var previews: some View {
-        if let game: Game = game {
-            GameHistoryRow(game: game)
-        } else {
-            Text("Failed to fetch local game")
-        }
+        GameHistoryRow(game: game)
     }
 }

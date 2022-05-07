@@ -9,15 +9,14 @@ import XCTest
 @testable import poke_wordle
 
 class GameRecordTests: XCTestCase {
-    let dataSourceFileName: String = "TestGameRecords"
+    let dataSourceFileName: String = "MockGameRecords"
 
     var sampleData: [GameRecord] = [GameRecord]()
 
     override func setUp() {
         super.setUp()
         guard let localData: Data = JSONHelper.readLocalFile(
-            forName: dataSourceFileName,
-            in: Bundle(for: type(of: self))) else {
+            forName: dataSourceFileName, in: .main) else {
             XCTFail("Could not parse JSON from local file \(dataSourceFileName)")
             return
         }

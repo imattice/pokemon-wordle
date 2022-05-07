@@ -17,7 +17,7 @@ enum JSONHelper {
             guard let jsonData: Data = try String(contentsOfFile: bundlePath).data(using: .utf8) else {
                 print("failed to build data from file contents")
                 return nil
-            }
+                }
             return jsonData
         } catch {
             print(error)

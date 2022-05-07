@@ -17,12 +17,8 @@ class DataSource {
     init() {
         self.version = 0
         self.lastUpdated = Date()
-        guard let data: Data = JSONHelper.readLocalFile(forName: "LocalDataSource"),
-              let decoded: [Pokemon] = try? JSONDecoder().decode([Pokemon].self, from: data) else {
-            self.pokemon = [Pokemon]()
-            return
-        }
-        self.pokemon = decoded
+        // TODO: Update to correct storage
+        self.pokemon = PreviewDataManager.datasource
     }
 
     func pokemon(with index: Int) -> Pokemon? {

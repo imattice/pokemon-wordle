@@ -22,6 +22,8 @@ enum PokemonType: String, Codable {
     case ice
     case normal
     case poison
+    case psychic
+    case rock
     case steel
     case water
 }
@@ -70,6 +72,12 @@ extension PokemonType {
 
         case .poison:
             return Color.PokemonType.poison
+
+        case .psychic:
+            return Color.PokemonType.psychic
+
+        case .rock:
+            return Color.PokemonType.rock
 
         case .steel:
             return Color.PokemonType.steel

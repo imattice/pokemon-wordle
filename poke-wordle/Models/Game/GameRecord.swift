@@ -16,14 +16,12 @@ struct GameRecord: Codable {
     let maxGuessCount: Int
     let guessIndexes: [Int]
 
-    private var dateFormat: String = "yyyy-MM-dd"
-
     private var convertedId: UUID {
         UUID(uuidString: id) ?? UUID()
     }
     private var convertedDate: Date {
         let formatter: DateFormatter = DateFormatter()
-        formatter.dateFormat = dateFormat
+        formatter.dateFormat = "yyyy-MM-dd"
 
         guard let converted: Date = formatter.date(from: date) else {
             fatalError("Invalid format when hydrating date '\(date)' for game id \(id)")
@@ -53,7 +51,7 @@ struct GameRecord: Codable {
         self.id = game.id.uuidString
         self.hiddenIndex = game.hiddenPokemon.id
         let formatter: DateFormatter = DateFormatter()
-        formatter.dateFormat = dateFormat
+        formatter.dateFormat = "yyyy-MM-dd"
         self.date = formatter.string(from: game.date)
         self.guessStatus = GuessStatus(
             generation: game.guessStatus.generation.label,
