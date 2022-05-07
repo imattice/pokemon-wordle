@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "klang.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

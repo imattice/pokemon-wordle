@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "hoopa-unbound.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

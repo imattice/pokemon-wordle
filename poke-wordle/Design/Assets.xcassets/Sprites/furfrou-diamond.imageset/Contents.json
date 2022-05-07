@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "furfrou-diamond.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

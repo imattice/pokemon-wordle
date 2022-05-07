@@ -7,11 +7,13 @@
 
 import Foundation
 
-struct Pokemon: Identifiable, Codable {
+struct Pokemon: Identifiable, Codable, Hashable {
     /// The national id for the Pokemon
     let id: Int
     /// The name of the Pokemon
     let name: String
+    /// The generation where the pokemon was introduced
+    let generation: Int
     /// The two types for the Pokemon
     let type: TypeCollection
     /// The weight of the Pokemon, in grams
@@ -51,6 +53,7 @@ struct Pokemon: Identifiable, Codable {
         let container: KeyedDecodingContainer = try decoder.container(keyedBy: CodingKeys.self)
         self.id = try container.decode(Int.self, forKey: .id)
         self.name = try container.decode(String.self, forKey: .name)
+        self.generation = try container.decode(Int.self, forKey: .generation)
         self.type = try container.decode(TypeCollection.self, forKey: .type)
         let decodedWeight: Double = try container.decode(Double.self, forKey: .weight)
         self.weight = Measurement(value: decodedWeight, unit: UnitMass.grams)
@@ -62,7 +65,7 @@ struct Pokemon: Identifiable, Codable {
 
 // MARK: - Type Collection
 extension Pokemon {
-    struct TypeCollection: Codable {
+    struct TypeCollection: Codable, Hashable {
         let primary: PokemonType
         let secondary: PokemonType?
     }
@@ -70,7 +73,7 @@ extension Pokemon {
 
 // MARK: - Sprite Path
 extension Pokemon {
-    struct ImagePath: Codable {
+    struct ImagePath: Codable, Hashable {
         let artwork: URL
         let sprite: URL
     }

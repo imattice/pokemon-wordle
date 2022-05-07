@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "grimer-alola.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

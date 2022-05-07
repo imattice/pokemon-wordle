@@ -24,4 +24,8 @@ class DataSource {
         }
         self.pokemon = decoded
     }
+
+    func pokemon(with index: Int) -> Pokemon? {
+        return pokemon.first { $0.id == index }
+    }
 }

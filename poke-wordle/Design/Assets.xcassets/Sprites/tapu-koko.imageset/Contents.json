@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tapu-koko.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

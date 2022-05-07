@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ferroseed.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

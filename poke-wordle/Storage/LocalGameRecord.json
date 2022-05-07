@@ -1,0 +1,13 @@
+[{
+    "pokemon": 1,
+    "date": "2022-05-05",
+    "guessStatus": {
+        "generation": "unknown",
+        "typeOne": "unknown",
+        "typeTwo": "unknown",
+        "height": "unknown",
+        "weight": "unknown"
+    },
+    "maxGuesses": 6,
+    "guesses": [6, 56, 90, 1]
+}]

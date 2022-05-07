@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "grimmsnarl-gmax.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

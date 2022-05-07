@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "regieleki.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

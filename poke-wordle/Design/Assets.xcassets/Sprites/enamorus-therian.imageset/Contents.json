@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "enamorus-therian.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

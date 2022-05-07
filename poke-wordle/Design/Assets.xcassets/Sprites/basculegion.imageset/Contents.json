@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "basculegion.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

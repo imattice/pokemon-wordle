@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "dialga-origin.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

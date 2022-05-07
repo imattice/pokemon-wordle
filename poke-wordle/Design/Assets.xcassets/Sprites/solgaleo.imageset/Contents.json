@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "solgaleo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

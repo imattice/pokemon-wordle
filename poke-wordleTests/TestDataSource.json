@@ -1,0 +1,141 @@
+[{
+    "id": 1,
+    "name": "bulbasaur",
+    "generation": 1,
+    "height": 70,
+    "weight": 6900,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    },
+    "type": {
+        "primary": "grass",
+        "secondary": "poison"
+    }
+}, {
+    "id": 2,
+    "name": "ivysaur",
+    "generation": 1,
+    "height": 100,
+    "weight": 13000,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+    },
+    "type": {
+        "primary": "grass",
+        "secondary": "poison"
+    }
+}, {
+    "id": 3,
+    "name": "venusaur",
+    "generation": 1,
+    "height": 200,
+    "weight": 100000,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+    },
+    "type": {
+        "primary": "grass",
+        "secondary": "poison"
+    }
+}, {
+    "id": 4,
+    "name": "charmander",
+    "generation": 1,
+    "height": 60,
+    "weight": 8500,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+    },
+    "type": {
+        "primary": "fire",
+        "secondary": null
+    }
+}, {
+    "id": 5,
+    "name": "charmeleon",
+    "generation": 1,
+    "height": 110,
+    "weight": 19000,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+    },
+    "type": {
+        "primary": "fire",
+        "secondary": null
+    }
+}, {
+    "id": 6,
+    "name": "charizard",
+    "generation": 1,
+    "height": 170,
+    "weight": 90500,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    },
+    "type": {
+        "primary": "fire",
+        "secondary": "flying"
+    }
+}, {
+    "id": 7,
+    "name": "squirtle",
+    "generation": 1,
+    "height": 50,
+    "weight": 9000,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+    },
+    "type": {
+        "primary": "water",
+        "secondary": null
+    }
+}, {
+    "id": 8,
+    "name": "wartortle",
+    "generation": 1,
+    "height": 100,
+    "weight": 22500,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+    },
+    "type": {
+        "primary": "water",
+        "secondary": null
+    }
+}, {
+    "id": 9,
+    "name": "blastoise",
+    "generation": 1,
+    "height": 160,
+    "weight": 85500,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+    },
+    "type": {
+        "primary": "water",
+        "secondary": null
+    }
+}, {
+    "id": 10,
+    "name": "caterpie",
+    "generation": 1,
+    "height": 30,
+    "weight": 2900,
+    "imagePath": {
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+        "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+    },
+    "type": {
+        "primary": "bug",
+        "secondary": null
+    }
+}]

@@ -1,0 +1,14 @@
+[{
+    "id": "fbf8750d-8a0b-4aa1-b0ab-ca55c7661e00",
+    "hiddenIndex": 1,
+    "date": "2022-05-05",
+    "guessStatus": {
+        "generation": "unknown",
+        "typeOne": "unknown",
+        "typeTwo": "unknown",
+        "height": "unknown",
+        "weight": "unknown"
+    },
+    "maxGuessCount": 6,
+    "guessIndexes": [6, 56, 90, 1]
+}]

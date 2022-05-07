@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "passimian.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "glalie-mega.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

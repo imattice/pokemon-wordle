@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "darmanitan-zen.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

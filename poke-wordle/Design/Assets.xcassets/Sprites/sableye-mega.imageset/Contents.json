@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "sableye-mega.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

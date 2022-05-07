@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "pichu-spiky-eared.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

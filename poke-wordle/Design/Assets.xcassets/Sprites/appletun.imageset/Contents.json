@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "appletun.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

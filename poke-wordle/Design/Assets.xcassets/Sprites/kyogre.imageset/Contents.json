@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "kyogre.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
